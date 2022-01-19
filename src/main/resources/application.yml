@@ -1,0 +1,10 @@
+server:
+    port: 8001
+
+spring:
+    application:
+        name: request-demo
+    thymeleaf:
+        cache: false
+        mode: HTML
+        prefix: classpath:/templates/
